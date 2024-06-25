@@ -26,9 +26,9 @@
 
 #quotes {
     margin-top: 100vh;
-    padding: 20vh 10vw 0 10vw;
+    padding: 20vh 5vw 0 5vw;
     z-index: -1;
-    width: 80vw;
+    width: 90vw;
     min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -80,9 +80,9 @@
 }
 
 #adam1 {
-    grid-column: 8;
+    grid-column: 6 / 9;
     grid-row: 4;
-    background: radial-gradient(circle, rgb(140, 0, 255) 0%, rgba(0,0,0,0) 60%);
+    background: radial-gradient(circle, rgb(140, 0, 255) 0%, rgba(0,0,0,0) 50%);
 }
 
 #adam2 {
